@@ -1,0 +1,18 @@
+@media (max-width:600px){
+    body { width: 100vw; height: 100vh; margin: 0 auto; overflow-x: hidden; overflow-y: scroll;}
+
+    .container{
+        margin: 0 auto;
+        margin-left: 1.2%;
+        width: 45%;
+        height: 100%;
+        display: flex;
+        background-color: #262F30;
+    }
+
+    .ftperfil {
+        width: 90%;
+     
+    }
+    .ftperfil img {width: 50%;}
+}
