@@ -1,10 +1,9 @@
-@media (max-width:600px){
-    body { width: 100vw; height: 100vh; margin: 0 auto; overflow-x: hidden; overflow-y: scroll;}
+@media (max-width:600px) and (min-width: 480px){
+    body { width: 100vw; height: 100vh; margin: 0 auto; overflow-x: hidden; overflow-y: auto;}
 
     .container{
-        margin: 0 auto;
-        margin-left: 1.2%;
-        width: 45%;
+        margin: 0;
+        width: 50%;
         height: 100%;
         display: flex;
         background-color: #262F30;
@@ -15,4 +14,35 @@
      
     }
     .ftperfil img {width: 50%;}
+
+    .nameperfil {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 100% !important;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    .subperfil{
+        padding-top: 3%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 95% !important;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        }
+
+    .skills li {
+        list-style: none;
+    }
+    .skills {
+        padding-top: 8%;
+        font-family: 'Saira', sans-serif;
+        font-weight: 400;
+        font-size: 100%;
+        line-height: 120%;
+        color: #D7D5C4;  
+    }
+    
+
 }

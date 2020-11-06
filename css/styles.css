@@ -1,17 +1,60 @@
-body {max-width: 1400px; width: 100vw; height: 100vh; margin: 0; overflow: hidden;}
-
-.container {
-    margin-left: 1%;
-    width: 20%;
-    height: 100%;
-    background-color: #262F30;
-    display: flex;
-
+* {
+    padding: 0;
+    transition: all 150ms linear 0s;
 }
 
-.ftperfil {
-    margin-left: 8%;
-    width: 90%;
- 
-}
-.ftperfil img {width: 90%;}
+body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; background-color: bisque;}
+
+    .container {
+        width: 20%;
+        height: 100%;
+        background-color: #262F30;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ftperfil {
+        margin: 0 auto;
+        padding: 3%;
+        margin-left: 5%;
+        width: 90%;
+    
+    }
+    .ftperfil img {width: 90%;}
+
+    .nameperfil {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 160%;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+    
+    .subperfil{
+    padding-top: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    }
+
+    .skills li {
+        list-style: none;
+    }
+    .skills {
+        padding-top: 8%;
+        font-family: 'Saira', sans-serif;
+        font-weight: 400;
+        font-size: 100%;
+        line-height: 120%;
+        color: #D7D5C4;  
+    }
+
+
+
+
+
+
