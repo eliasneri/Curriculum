@@ -34,7 +34,7 @@
         padding-top: 3%;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 130%;
+        font-size: 150%;
         color: #FFFFFF;
         text-transform: uppercase;
         }
@@ -43,24 +43,15 @@
         list-style: none;
     }
     .skills {
-        padding-top: 8%;
+        padding-top: 2%;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
-        font-size: 100%;
+        font-size: 130%;
         line-height: 120%;
         color: #D7D5C4;  
     }
 
 
-
-
-
-
-
-
-
 }
 
-@media (max-width:480px) and (orientation: landscape){
-    body { width: 100vw; height: 100vh; margin: 0 auto;  overflow-y: scroll; padding: 0; background-color: blue;}
-}
+
