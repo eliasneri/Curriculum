@@ -53,6 +53,17 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         color: #D7D5C4;  
     }
 
-    
-
+    .infos{
+        padding-top: 2%;
+        margin: 0% auto;
+    }
+    .infos img{
+        width: 100%;
+    }    
+    .infos td{
+        text-align: right;
+    }
+    .tdEspaco{
+        padding-left: 3%;
+    }    
 
