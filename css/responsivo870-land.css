@@ -18,15 +18,16 @@
     padding: 0% !important ;
     margin-top: 5%;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     }
 
-    .ftperfil img {width: 50% !important;}
+    .ftperfil img {width: 80% !important;}
 
     .nameperfil {
+    margin-top: 0% !important;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 100% !important;
+    font-size: 150% !important;
     color: #FFFFFF;
     text-transform: uppercase;
     }
@@ -35,8 +36,7 @@
     padding-top: 3%;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400 !important;
-    font-size: 80% !important;
-    color: yellow;
+    font-size: 120% !important;
     text-transform: uppercase;
     }
 
@@ -47,8 +47,8 @@
         padding-top: 3% !important;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
-        font-size: 70% !important;
-        line-height: 100% !important;
+        font-size: 100% !important;
+        line-height: 130% !important;
         color: #D7D5C4;  
     }
 
