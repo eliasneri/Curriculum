@@ -89,3 +89,6 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    .lista{
+        background-color: aqua;
+    }

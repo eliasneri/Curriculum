@@ -25,7 +25,7 @@
         margin-top: -5% !important;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
-        font-size: 200%;
+        font-size: 160%;
         color: #FFFFFF;
         text-transform: uppercase;
     }
@@ -34,7 +34,7 @@
         margin-top: -3% !important;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 150% !important;
+        font-size: 130% !important;
         color: #FFFFFF;
         text-transform: uppercase;
         }
@@ -43,19 +43,15 @@
         list-style: none;
     }
     .skills {
-        padding-top: 2%;
+        margin-top: -5% !important;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
         font-size: 110% !important;
         line-height: 120%;
         color: #D7D5C4;  
     }
-
-
-
     .infos{
-        padding-top: 2%;
-        margin-top: 1% !important;
+        margin-top: -5% !important;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
         font-size: 80%;
@@ -72,6 +68,22 @@
     }    
     .infos table {
         border-spacing: 1px !important;
+    }
+    .cidade {
+       font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 100%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .map{
+        margin-top: -5%;
+        display: inline;
+        align-items: center;
+    }
+    .map li {
+        display: inline;
+       
     }
 }
 
