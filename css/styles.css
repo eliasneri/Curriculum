@@ -1,6 +1,8 @@
 * {
     padding: 0;
     transition: all 150ms linear 0s;
+    text-decoration: none;
+    flex-wrap: wrap;
 }
 
 body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; background-color: bisque;}
@@ -17,8 +19,7 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
 
     .ftperfil {
         margin: 0 auto;
-        padding-top: 6%;
-        margin-left: 5%;
+        padding-top: 3%;
         width: 90%;
     
     }
@@ -27,13 +28,13 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
     .nameperfil {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
-        font-size: 160%;
+        font-size: 150%;
         color: #FFFFFF;
         text-transform: uppercase;
     }
     
     .subperfil{
-    padding-top: 2%;
+    padding-top: 1%;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 130%;
@@ -45,7 +46,7 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         list-style: none;
     }
     .skills {
-        padding-top: 5%;
+        padding-top: 2%;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
         font-size: 100%;
@@ -54,7 +55,7 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
     }
 
     .infos{
-        padding-top: 5%;
+        padding-top: 2%;
         margin: 0% auto;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
@@ -75,13 +76,21 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         border-spacing: 0px !important;
     }
     
+    .map {
+        margin-top: -3%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .map li {
         list-style: none;
+        justify-content: center;
         
     }
     .map img {
         width: 5%;
     }
+   
+    
     .cidade {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 400;
@@ -89,6 +98,13 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .lista{
-        background-color: aqua;
+
+    .teste {
+        margin-top: -53%;
+        margin-left: 21%;
+        width: 30%;
+        height: 40%;
+        display: flex;
+        background-color: blueviolet;
     }
+    
