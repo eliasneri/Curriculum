@@ -1,0 +1,32 @@
+html{
+    overflow: hidden;
+}
+.about {
+    background-color: blueviolet;
+    width: 20%;
+    height: 10vh;
+    
+}
+.dados {
+    background-color: cadetblue;
+    width: 20vw;
+    height: 10vh;
+    
+    
+}
+.experi{
+    background-color: cornflowerblue;
+    width: 20vw;
+    height: 10vh;
+    
+}
+
+.flex-container {
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
