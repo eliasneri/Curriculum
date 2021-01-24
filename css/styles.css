@@ -48,7 +48,7 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         padding-top: 2%;
         font-family: 'Saira', sans-serif;
         font-weight: 400;
-        font-size: 100%;
+        font-size: 90%;
         line-height: 120%;
         color: #D7D5C4;  
     }
@@ -76,7 +76,7 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
     }
     
     .map {
-        margin-top: -5%;
+        margin-top: -3%;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -98,10 +98,13 @@ body {max-width: 1400px; height: 100vh; margin: 0 auto; overflow: hidden; backgr
         color: #FFFFFF;
     }
 
-    .teste {
-       
+    .teste-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: -48%;
+        margin-left: 21%;
         width: 30%;
-        height: 40%;
-       
+        height: 98vh;
+        
     }
     
