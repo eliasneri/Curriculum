@@ -2,6 +2,7 @@
     padding: 0;
     transition: all 150ms linear 0s;
     text-decoration: none;
+
 }
 
 @media (max-width:1440px) {
@@ -14,6 +15,7 @@
             margin: 0 auto;
             overflow: hidden; 
             background-color: bisque;
+            
         }
 
         .flex-container{
@@ -157,7 +159,7 @@
                 font-family: Saira;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 120%;
+                line-height: 140%;
                 color: #000000;
             }
             
@@ -181,12 +183,16 @@
                 font-family: Saira;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 120%;
+                line-height: 140%;
                 color: #000000;
             }
 
             .flex-contacts-item img{
                 width: 60%;
             }
+            .flex-contacts-item a{
+                color: black;
+            }
+           
             
 }
