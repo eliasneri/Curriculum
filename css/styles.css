@@ -5,7 +5,7 @@
 
 }
 
-@media (max-width:1440px) {
+@media (max-width:1440px){
         
         body {
             max-width: 1440px;
@@ -159,7 +159,7 @@
                 font-family: Saira;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 140%;
+                line-height: 120%;
                 color: #000000;
             }
             
@@ -183,7 +183,7 @@
                 font-family: Saira;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 140%;
+                line-height: 120%;
                 color: #000000;
             }
 
@@ -193,6 +193,73 @@
             .flex-contacts-item a{
                 color: black;
             }
-           
             
+            .flex-contacts-item h2{
+                font-size: 140%;
+            }
+}
+
+
+
+/*
+ajustes para abaixo de 1000px x 700px até 795x584
+*/
+
+@media (max-width: 998px) and (max-height: 687px){
+    
+    .nameperfil {
+        margin-top: 3%;
+        font-size: 110% !important;
+    }  
+
+    .subperfil{
+        padding-top: 1%;
+        font-size: 110% !important;
+    }
+        
+    .skills {
+        font-size: 85%;
+        line-height: 120%;
+    }
+
+    .infos{
+        font-size: 70%;
+    }
+    
+    .flex-itemDescr-item{
+        line-height: 100% !important;
+        font-size: 95% !important;
+    }
+    
+    .flex-itemDescr-item h2 {
+        font-size: 110%;
+    }
+ 
+    .flex-contacts-item{
+            font-size: 95% !important;
+            line-height: 107%;
+    }
+
+    .flex-contacts-item h2{
+        font-size: 110%;
+    }
+
+    .flex-contacts-item li{
+        font-size: 95%;
+    }
+    
+    .flex-contacts-item table{
+        font-size: 95%;
+        line-height: 80%;
+    }
+}
+
+/*
+ajustes para limites de 795x584 até.
+*/
+
+@media (max-width: 795px) and (max-height: 584px){
+body{
+    background-color: aqua;
+}
 }
