@@ -200,6 +200,43 @@
 }
 
 
+@media (max-width: 1360px){
+    
+    .About{
+        width: 100%;
+        margin-top: 1% !important;
+    }
+
+    .About img {
+        width: 60%;
+    }
+    .nameperfil {
+        margin-top: 3%;
+        font-size: 130% !important;
+    }  
+
+    .subperfil{
+        padding-top: 1%;
+        font-size: 110% !important;
+    }
+  
+    .skills {
+        font-size: 90%;
+        line-height: 120%;
+    }
+
+    .infos{
+        font-size: 78%;
+    }
+
+    .map {
+        margin-top: -2%;
+    }
+
+    .map li {
+        display: inline;
+    }
+}
 
 /*
 ajustes para abaixo de 1000px x 700px até 795x584
@@ -207,6 +244,14 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (max-width: 998px) and (max-height: 687px){
     
+    .About{
+        width: 100%;
+        margin-top: 1% !important;
+    }
+
+    .About img {
+        width: 70%;
+    }
     .nameperfil {
         margin-top: 3%;
         font-size: 110% !important;
@@ -216,6 +261,7 @@ ajustes para abaixo de 1000px x 700px até 795x584
         padding-top: 1%;
         font-size: 110% !important;
     }
+
         
     .skills {
         font-size: 85%;
