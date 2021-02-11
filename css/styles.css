@@ -364,7 +364,7 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (min-height: 400px) {
     
-    * {
-        overflow: auto;
+    body {
+        overflow: scroll;
     }
 }
