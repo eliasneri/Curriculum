@@ -303,21 +303,18 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (max-width: 460px){
 
-    body{
-        overflow: auto;
-       
-    }
-
     .flex-container{
         width: 100vw;
         height: 100vh;
         margin: 0 auto;
         display: flex;
+        overflow: scroll;
    }
 
     .flex-itemAbout{
         width: 100vw;
-        margin: 0 auto;         
+        margin: 0 auto;  
+               
     }
 
     .About img {
@@ -344,12 +341,14 @@ ajustes para abaixo de 1000px x 700px até 795x584
    .flex-itemDescr {
     width: 100vw;
     height: auto !important;
+    overflow: scroll;
         
     }
 
     .flex-contacts{
         width: 100vw;
         height: auto !important;
+        overflow: scroll;
             
     }
 
