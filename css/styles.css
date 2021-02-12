@@ -2,8 +2,11 @@
     padding: 0;
     transition: all 150ms linear 0s;
     text-decoration: none;
-    overflow: hidden;
 
+}
+
+.over-no{
+    overflow: hidden;
 }
 
 @media (max-width:1440px){
@@ -304,10 +307,7 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (max-width: 460px){
 
-    body {
-        overflow: scroll !important;
-    }
-    
+       
     .flex-container{
         width: 100vw;
         height: 100vh;
