@@ -2,6 +2,7 @@
     padding: 0;
     transition: all 150ms linear 0s;
     text-decoration: none;
+    overflow: hidden;
 
 }
 
@@ -303,12 +304,16 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (max-width: 460px){
 
+    body {
+        overflow: scroll;
+    }
+    
     .flex-container{
         width: 100vw;
         height: 100vh;
         margin: 0 auto;
         display: flex;
-        overflow: scroll;
+        
    }
 
     .flex-itemAbout{
@@ -358,8 +363,6 @@ ajustes para abaixo de 1000px x 700px até 795x584
                 
     }
 }
-
-
 
 @media (min-height: 400px) {
     
