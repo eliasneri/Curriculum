@@ -8,6 +8,9 @@
 .over-no{
     overflow: hidden;
 }
+body{
+    overflow: hidden;
+}
 
 @media (max-width:1440px){
         
@@ -17,7 +20,7 @@
             width: 100vw;
             height: 100vh; 
             margin: 0 auto;
-            overflow: hidden; 
+            overflow: hidden !important; 
             background-color: bisque;
             
         }
@@ -63,11 +66,12 @@
 
         .About{
             width: 100%;
-            margin-top: 3%;
+            
         }
 
         .About img {
-            width: 70%;
+            width: 50%;
+            margin-top: -3%;
         }
 
         .nameperfil {
@@ -168,7 +172,7 @@
             }
             
             .flex-itemDescr-item h2 {
-                font-size: 140%;
+                font-size: 120%;
             }
 
             .flex-itemDescr-item li {
@@ -208,29 +212,29 @@
     
     .About{
         width: 100%;
-        margin-top: 1% !important;
+       
     }
 
     .About img {
         width: 60%;
     }
     .nameperfil {
-        margin-top: 3%;
-        font-size: 130% !important;
+        margin-top: 2%;
+        font-size: 120% !important;
     }  
 
     .subperfil{
         padding-top: 1%;
-        font-size: 110% !important;
+        font-size: 90% !important;
     }
   
     .skills {
-        font-size: 90%;
-        line-height: 120%;
+        font-size: 80%;
+        line-height: 110%;
     }
 
     .infos{
-        font-size: 78%;
+        font-size: 65%;
     }
 
     .map {
@@ -239,6 +243,10 @@
 
     .map li {
         display: inline;
+    }
+
+    .map img {
+        width: 4%;
     }
 }
 
@@ -307,6 +315,9 @@ ajustes para abaixo de 1000px x 700px até 795x584
 
 @media (max-width: 460px){
 
+    body{
+        overflow: scroll !important;
+    }
        
     .flex-container{
         width: 100vw;
