@@ -172,7 +172,7 @@ body{
             }
             
             .flex-itemDescr-item h2 {
-                font-size: 120%;
+                font-size: 130%;
             }
 
             .flex-itemDescr-item li {
@@ -216,7 +216,7 @@ body{
     }
 
     .About img {
-        width: 60%;
+        width: 70%;
     }
     .nameperfil {
         margin-top: 2%;
@@ -229,12 +229,12 @@ body{
     }
   
     .skills {
-        font-size: 80%;
+        font-size: 100%;
         line-height: 110%;
     }
 
     .infos{
-        font-size: 65%;
+        font-size: 75%;
     }
 
     .map {
