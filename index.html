@@ -9,17 +9,23 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <title>Elias Antonio Néri</title>
 </head>
-    <Script>
-        var data = new Date();
-        var idade = data.getYear() - 1982;
-        console.log(idade);
-    </Script>
+
+
+
+    
 <body>
     <section class="flex-container">
             <div class="flex-itemAbout">
                 <div class="About"><img src="assets/perfil.png" alt=""></div>
                 <div class="nameperfil">Elias Antonio Néri</div>
-                <div class="subperfil">38 Anos</div>
+                <div class="subperfil">
+                    <script type="text/javascript">
+                        let nasc = '1982-02-22';
+                        let data = new Date();
+                        let idade = data.getFullYear() - (1982) + " Anos";
+                        document.write(idade);  
+                    </script>
+                </div>
                 <div class="skills">
                     <li>Técnico em Informática</li>
                     <li>Designer Gráfico</li>
